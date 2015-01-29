@@ -1,0 +1,654 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"curr",
+				"currentData"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "server/seeds.js",
+			"settings":
+			{
+				"buffer_size": 131,
+				"line_ending": "Windows",
+				"name": "Meteor.startup(function(){"
+			}
+		},
+		{
+			"file": "lib/collections/boards.js",
+			"settings":
+			{
+				"buffer_size": 40,
+				"line_ending": "Windows",
+				"name": "Boards = new Mongo.Collection(\"boards\");"
+			}
+		},
+		{
+			"file": "client/views/board/board.js",
+			"settings":
+			{
+				"buffer_size": 777,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/router.js",
+			"settings":
+			{
+				"buffer_size": 116,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "packages/gridster/package.js",
+			"settings":
+			{
+				"buffer_size": 271,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/views/board/board.html",
+			"settings":
+			{
+				"buffer_size": 117,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/views/board/board.less",
+			"settings":
+			{
+				"buffer_size": 67,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"prett",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"scss",
+				"Set Syntax: CSS"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"use ",
+				"Preferences: Settings - User"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"ruy",
+				"Set Syntax: Ruby"
+			],
+			[
+				"rub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remvoe",
+				"Package Control: Remove Channel"
+			]
+		],
+		"width": 536.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Andres/Projects/meteor/laforge",
+		"/C/Users/Andres/Projects/meteor/laforge/client",
+		"/C/Users/Andres/Projects/meteor/laforge/client/views",
+		"/C/Users/Andres/Projects/meteor/laforge/client/views/board",
+		"/C/Users/Andres/Projects/meteor/laforge/lib",
+		"/C/Users/Andres/Projects/meteor/laforge/lib/collections",
+		"/C/Users/Andres/Projects/meteor/laforge/packages",
+		"/C/Users/Andres/Projects/meteor/laforge/packages/gridster",
+		"/C/Users/Andres/Projects/meteor/laforge/server"
+	],
+	"file_history":
+	[
+		"/C/Users/Andres/Projects/meteor/laforge/.meteor/.id",
+		"/C/Users/Andres/Projects/meteor/laforge/lib/router.js",
+		"/C/Users/Andres/Projects/umap/config/initializers/wicked_pdf.rb",
+		"/C/Users/Andres/Projects/umap/bin/wkhtmltoimage-amd64",
+		"/C/Users/Andres/Projects/umap/app/models/aspect.rb",
+		"/C/Users/Andres/Projects/umap/app/models/report_set_aspect.rb",
+		"/C/Users/Andres/Projects/umap/public/aloha/plugins/extra/sourceview/lib/sourceview-plugin.js",
+		"/C/Users/Andres/Projects/umap/public/aloha/css/aloha-sidebar.css",
+		"/C/Users/Andres/Projects/umap/public/aloha/plugins/common/image/lib/image-plugin-actions.js",
+		"/C/Users/Andres/Projects/umap/Procfile",
+		"/C/Users/Andres/Projects/umap/db/seeds.rb",
+		"/C/Users/Andres/Projects/umap/db/schema.rb",
+		"/C/Users/Andres/Projects/umap/db/migrate/20120920145918_create_indicators.rb",
+		"/C/Users/Andres/Projects/umap/config/environments/staging.rb",
+		"/C/Users/Andres/Projects/umap/config/environment.rb",
+		"/C/Users/Andres/Projects/umap/public/aloha/plugins/extra/attributes/nls/i18n.js",
+		"/C/Users/Andres/Projects/umap/bin/erubis",
+		"/C/Users/Andres/Projects/umap/config/database.yml",
+		"/C/Users/Andres/Projects/umap/db/questionnaire.json",
+		"/C/Users/Andres/Projects/umap/config/application.rb",
+		"/C/Users/Andres/Projects/umap/bin/wkhtmltopdf",
+		"/C/Users/Andres/Projects/umap/app/views/admin/support_tickets/_form.html.haml",
+		"/C/Users/Andres/Projects/umap/public/assets/preview/bartik-d6cdef83bb7755f59144fab51a90e597.css",
+		"/C/Users/Andres/Projects/umap/public/aloha/demo/world/index.css",
+		"/C/Users/Andres/Projects/umap/test/migrations/update_questionnaire_with_indicators_test.rb",
+		"/C/Users/Andres/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Andres/Projects/umap/app/assets/stylesheets/universities_png.css.scss",
+		"/C/Users/Andres/Projects/umap/app/views/layouts/_html_head.html.haml",
+		"/C/Users/Andres/Projects/umap/app/views/universities/roset.png.haml",
+		"/C/Users/Andres/Projects/umap/app/controllers/universities_controller.rb",
+		"/C/Users/Andres/Projects/meteor/cookbooks/meteor_windows/recipes/default.rb",
+		"/C/Users/Andres/Projects/umap/Gemfile.lock",
+		"/C/Users/Andres/Projects/umap/Gemfile",
+		"/C/Users/Andres/Projects/umap/Vagrantfile",
+		"/C/Users/Andres/Projects/umap/.vagrant/machines/default/virtualbox/action_provision",
+		"/C/Users/Andres/Projects/umap/bin/autospec",
+		"/C/Users/Andres/Projects/umap/app/assets/stylesheets/universities/universities_png.css.scss",
+		"/C/Users/Andres/Projects/umap/app/assets/stylesheets/universities.css.scss",
+		"/C/Users/Andres/Projects/umap/bin/htmldiff",
+		"/C/Users/Andres/Projects/umap/config/initializers/hash_to_dotted_hash.rb",
+		"/C/Users/Andres/Projects/umap/bin/haml",
+		"/C/Users/Andres/Projects/umap/spec/controllers/universities_controller_spec.rb",
+		"/C/Users/Andres/Projects/umap/bin/unicorn",
+		"/C/Users/Andres/Projects/umap/umap.sublime-project",
+		"/C/Users/Andres/Projects/umap/app/models/institution.rb",
+		"/C/Users/Andres/Projects/umap/test/fixtures/institutions_nils.sql",
+		"/C/Users/Andres/Projects/umap/bin/imgkit",
+		"/C/Users/Andres/Projects/umap/db/migrate/20130423100737_add_admin_to_user.rb",
+		"/C/Users/Andres/Projects/umap/public/aloha/demo/demo-app/app/demo-app.log",
+		"/C/Users/Andres/Projects/umap/bin/delayed_job",
+		"/C/Users/Andres/Projects/meteor/Vagrantfile",
+		"/C/Users/Andres/Projects/meteor/como/como.sublime-project",
+		"/C/Users/Andres/Projects/meteor/.gitignore",
+		"/C/Users/Andres/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 176.0,
+		"where_history":
+		[
+			"C:\\Users\\Andres\\Projects\\umap",
+			"C:\\Users\\Andres\\Projects\\umap\\app\\models",
+			"C:\\Users\\Andres\\Projects\\umap"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"_y",
+			"currentData",
+			"_id",
+			"ul>",
+			"\n	",
+			"}",
+			"{",
+			"oink",
+			"tableless",
+			"  host: localhost\n",
+			"  encoding: unicode\n",
+			"postgresql",
+			"wkhtmltoimage",
+			"rmagick",
+			"password",
+			"3000"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "server/seeds.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 131,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								57,
+								57
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Meteor.startup(function(){",
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "lib/collections/boards.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 40,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								40,
+								40
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Boards = new Mongo.Collection(\"boards\");",
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "client/views/board/board.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 777,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								777,
+								777
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "lib/router.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 116,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								86,
+								86
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "packages/gridster/package.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 271,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								271,
+								271
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "client/views/board/board.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 117,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								117,
+								117
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "client/views/board/board.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 67,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								67,
+								67
+							]
+						],
+						"settings":
+						{
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "laforge.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"wic",
+				"config\\initializers\\wicked_pdf.rb"
+			],
+			[
+				"paspec",
+				"app\\models\\aspect.rb"
+			],
+			[
+				"applic",
+				"config\\application.rb"
+			],
+			[
+				"eniv",
+				"config\\environment.rb"
+			],
+			[
+				"gemf",
+				"Gemfile"
+			],
+			[
+				"applir",
+				"config\\application.rb"
+			],
+			[
+				"ques",
+				"db\\questionnaire.json"
+			],
+			[
+				"gemlo",
+				"Gemfile.lock"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"appli",
+				"config\\application.rb"
+			],
+			[
+				"htmlhea",
+				"app\\views\\layouts\\_html_head.html.haml"
+			],
+			[
+				"unicss",
+				"app\\assets\\stylesheets\\universities.css.scss"
+			],
+			[
+				"unicon",
+				"app\\controllers\\universities_controller.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 750.0,
+		"selected_items":
+		[
+			[
+				"como",
+				"C:\\Users\\Andres\\Projects\\meteor\\como\\como.sublime-project"
+			],
+			[
+				"uamp",
+				"C:\\Users\\Andres\\Projects\\umap\\umap.sublime-project"
+			],
+			[
+				"smel",
+				"C:\\Users\\Andres\\Projects\\meteor\\smell\\smell.sublime-project"
+			],
+			[
+				"",
+				"C:\\Users\\Andres\\Projects\\meteor\\como\\como.sublime-project"
+			]
+		],
+		"width": 570.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 361.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
