@@ -49,8 +49,6 @@ Template.tile.rendered = function() {
 				sizeY,
 				cols,
 				rows,
-				prevCols = self.data.size_x,
-				prevRows = self.data.size_y,
 				guttersX,
 				guttersY;
 
@@ -79,20 +77,19 @@ Template.tile.rendered = function() {
 				cols = Math.ceil((sizeX - guttersX) / colWidth);
 				rows = Math.ceil((sizeY - guttersY) / rowHeight);
 
-				if (cols !== prevCols || rows !== prevRows) {
-					Deps.afterFlush(function() {
-						MyPackery.inst.packery('layout');
-					});
-				}
-
-				prevCols = cols;
-				prevRows = rows;
+				Deps.afterFlush(function() {
+					MyPackery.inst.packery('layout');
+				});
 			});
 
 			dragResize.on('dragEnd', function(draggieInstance, event, pointer) {
 				$(self.firstNode).css('transition', 'height 200ms, width 200ms');
 				$(self.firstNode).css('width', '');
 				$(self.firstNode).css('height', '');
+
+				Meteor.setTimeout(function(){
+					MyPackery.inst.packery('layout');
+				}, 250);
 
 				var roundedCols = Math.round((sizeX - guttersX) / colWidth);
 				var roundedRows = Math.round((sizeY - guttersY) / rowHeight);
