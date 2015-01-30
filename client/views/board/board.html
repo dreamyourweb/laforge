@@ -10,8 +10,11 @@
 
 <template name="tile">
   <div id="{{_id}}" class="tile {{size}}">
+  	<div class="dragHandle"></div>
     <h5>{{subject}}</h5>
     <p>{{index}}</p>
-    <div class="tileResize"></div>
+    <div class="resizeHandleContainer">
+      <div class="resizeHandle"></div>
+    </div>
   </div>
 </template>

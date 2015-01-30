@@ -19,7 +19,7 @@
   // height: 80px;
   float: left;
   background: #C09;
-  border: 4px solid #333;
+  // border: 4px solid #333;
   border-color: hsla(0, 0%, 0%, 0.3);
 
   &.w1{ width: 80px; }
@@ -43,6 +43,27 @@
     background: orange;
     width: 10px;
     height: 10px;
+  }
+
+  .resizeHandleContainer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    .resizeHandle{
+      background: red;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .dragHandle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
   }
 
 }
