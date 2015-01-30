@@ -29,14 +29,6 @@ MyPackery = {
 
   }),
 
-  // draggable: function() {
-  //   var self = this;
-  //   this.inst.find('.tile').each(function(i, itemElem) {
-  //     var draggie = new Draggabilly(itemElem);
-  //     self.inst.packery('bindDraggabillyEvents', draggie);
-  //   });
-  // },
-
   update: function() {
     var self = this;
     if (this.inst) {
