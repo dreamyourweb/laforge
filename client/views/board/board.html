@@ -1,10 +1,17 @@
 <template name="board">
-	<button class="addTile">add</button>
-	<div class="gridster">
-		<ul>
-			{{#each tiles}}
-				<li data-row="{{row}}" data-col="{{col}}" data-sizex="{{size_x}}" data-sizey="{{size_y}}"></li>
-			{{/each}}
-		</ul>
+	<div class="packery">
+		{{#each tiles}}
+			{{> tile}}
+		{{/each}}
 	</div>
+	<button class="addTile">add</button>
+</template>
+
+
+<template name="tile">
+  <div id="{{_id}}" class="tile {{size}}">
+    <h5>{{subject}}</h5>
+    <p>{{index}}</p>
+    <div class="tileResize"></div>
+  </div>
 </template>

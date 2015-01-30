@@ -10,4 +10,5 @@ insecure
 mfpierre:chartist-js
 iron:router
 less
-gridster
+dburles:packery
+mquandalle:bower
