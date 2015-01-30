@@ -33,7 +33,7 @@ Template.tile.rendered = function() {
 				handle: ".dragHandle"
 			});
 			MyPackery.inst.packery('bindDraggabillyEvents', draggie);
-			var dragResize = new Draggabilly(self.find(".resizeHandle"),{
+			var dragResize = new Draggabilly(self.find(".resizeHandle"), {
 				containment: true
 			});
 
@@ -60,6 +60,7 @@ Template.tile.rendered = function() {
 				sizeStartX = $(self.firstNode).width();
 				sizeStartY = $(self.firstNode).height();
 				$(self.firstNode).css('transition', '');
+				MyPackery.inst.packery('stamp', $(self.firstNode));
 			});
 
 			dragResize.on('dragMove', function(draggieInstance, event, pointer) {
@@ -103,6 +104,7 @@ Template.tile.rendered = function() {
 						size_y: roundedRows
 					}
 				});
+				MyPackery.inst.packery('unstamp', $(self.firstNode));
 			});
 		}
 	});
