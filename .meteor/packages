@@ -11,3 +11,8 @@ iron:router
 less
 dburles:packery
 mquandalle:bower
+msavin:mongol
+meteorhacks:npm
+
+
+npm-container

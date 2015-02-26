@@ -5,3 +5,7 @@ Meteor.publish("boards", function(){
 Meteor.publish("tiles", function(){
 	return Tiles.find();
 });
+
+Meteor.publish("integrations", function(){
+	return Integrations.find();
+});
